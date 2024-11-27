@@ -1,0 +1,21 @@
+Describe your explanation about below simple rendering functions.
+
+1. barycentric_coords: Computes barycentric coordinates for a point relative to a triangle to determine its position within the triangle.
+
+2. bounding_box: Calculates the smallest rectangle that fully contains a given triangle in 2D space.
+
+3. scaled_vertices: Scales 3D vertices to fit the 2D image space based on the screen width and height.
+
+4. scaled_texture_vertices: Scales texture vertices to align with the dimensions of the texture image.
+
+5. normal_vectors: Retrieves and normalizes the normal vectors of vertices for lighting calculations.
+
+6. render_line: Renders a straight line between two points using the Bresenham algorithm for rasterization.
+
+7. draw_triangle: Draws the edges of a triangle by connecting its vertices with lines.
+
+8. shade_triangle_texture: Renders a textured triangle by interpolating texture and lighting values within the triangle using barycentric coordinates.
+
+9. shade_triangle: Renders a flat-shaded triangle by applying a uniform lighting intensity across its surface.
+
+10. render_shaded: Iterates through all faces of the model to render them using either texture mapping or flat shading, managing depth with a Z-buffer.
